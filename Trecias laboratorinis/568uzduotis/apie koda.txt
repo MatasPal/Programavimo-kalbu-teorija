@@ -1,0 +1,17 @@
+This code defines a Haskell program that takes a list of integers as input, and for each integer n in the list, calculates the factorial of n and finds the last non-zero digit in the factorial. The program then prints the result for each input integer in the format "n -> d", where n is the input integer and d is the last non-zero digit in the factorial of n. If the factorial of n does not contain any non-zero digits, the program prints "n -> none".
+
+Here's a step-by-step breakdown of how the program works:
+
+The first line of the program imports some necessary functions from various Haskell modules. In particular, the digitToInt function from Data.Char converts a character representing a digit to an integer, and the find function from Data.List returns the first element in a list that satisfies a given predicate.
+
+The factorial function takes an integer n and computes the factorial of n using the product function, which multiplies all elements of a list together. The [1..n] syntax creates a list containing all integers from 1 to n.
+
+The lastNonZeroDigit function takes an integer n and returns a Maybe integer representing the last non-zero digit in the factorial of n. It does this by first converting the factorial of n to a string using show, then converting each character in the string to an integer using digitToInt, then reversing the resulting list of integers, and finally finding the first non-zero integer in the reversed list using find. If the reversed list contains no non-zero integers (i.e. the factorial of n contains no non-zero digits), find returns Nothing.
+
+The formatOutput function takes an integer n and a Maybe integer representing the last non-zero digit in the factorial of n, and formats them as a string using printf. If the second argument is Nothing, indicating that the factorial of n contains no non-zero digits, the function formats the output as "n -> none". Otherwise, the function formats the output as "n -> d", where d is the last non-zero digit.
+
+The main function is the entry point for the program. It reads input from standard input using getContents, which returns a string containing all input up to the end of file marker. It then converts each line of the input to an integer using map read $ lines input, and stores the resulting list of integers in the ns variable.
+
+The results variable is created by mapping the (\n -> (n, lastNonZeroDigit n)) function over the ns list. This function takes an integer n and returns a tuple containing n and the last non-zero digit in the factorial of n (or Nothing if there is no such digit).
+
+The mapM_ function is used to apply the (\(n, d) -> putStrLn $ formatOutput n d) function to each element of the results list, and print the resulting string to standard output. The (\(n, d) -> putStrLn $ formatOutput n d) function takes a tuple containing an integer n and a Maybe integer d, formats them as a string using formatOutput, and prints the resulting string to standard output using putStrLn. The mapM_ function is used instead of map because we don't care about the resulting list of strings - we just want to print each string as it is generated.

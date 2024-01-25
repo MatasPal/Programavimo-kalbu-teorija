@@ -1,0 +1,19 @@
+Nekintamumas, deklaratyvumas, grynai funkcinės kalbos:
+Kintamieji ir duomenų struktūros yra nekeičiami, t. y. jų negalima keisti, kai jie yra sukurti. Deklaratyvumas reiškia programavimo paradigmą, kai deklaruojama, ką norima, kad programa darytų, o ne kaip ji tai turėtų daryti. Grynai funkcinės kalbos - tai programavimo kalbos, kurios remiasi tik grynosiomis funkcijomis, neturinčiomis šalutinių poveikių ir priklausančiomis tik nuo savo įvesties parametrų.
+
+Rekursijos tipai ir jų svarba funkciniame programavime:
+Yra du rekursijos tipai: tiesioginė ir netiesioginė. Tiesioginė rekursija atsiranda tada, kai funkcija tiesiogiai iškviečia pati save. Netiesioginė rekursija atsiranda, kai dvi ar daugiau funkcijų skambina viena kitai ratu. Rekursija svarbi funkciniame programavime, nes leidžia spręsti problemas elegantiškiau ir efektyviau, palyginti su iteraciniu programavimu.
+
+Aukštesnės eilės funkcijos funkciniame programavime:
+Aukštesnės eilės funkcijos - tai funkcijos, kurios priima kitas funkcijas kaip argumentus ir (arba) grąžina funkcijas kaip rezultatus. Jos yra esminė funkcinio programavimo dalis, nes leidžia užtikrinti didesnę kodo abstrakciją ir moduliškumą, taip pat įgalina tokias funkcines konstrukcijas, kaip "currying" ir dalinis taikymas.
+
+Tipai ir tipų klasės. Naujų tipų naudojimas ir kūrimas:
+Funkciniame programavime tipai naudojami siekiant užtikrinti, kad funkcijos būtų taikomos tinkamo tipo duomenims. Tipų klasės yra tipų grupės, turinčios bendrą elgseną, leidžiančią rašyti bendresnes funkcijas. Kai kuriose funkcinio programavimo kalbose galima kurti naujus tipus, kad jie atitiktų konkrečius poreikius.
+
+Funikatoriai:
+Funkcinės struktūros yra duomenų struktūros tipas, leidžiantis taikyti funkcijas tos struktūros elementams, nekeičiant pačios struktūros. Funkcinio programavimo kalbose jie dažniausiai naudojami į konteinerius panašioms struktūroms, pavyzdžiui, sąrašams ar medžiams, atvaizduoti.
+
+Griežtas tipavimas ir tipų svarba funkciniame programavime:
+Griežtas rašymas reiškia funkcinio programavimo kalbų savybę, kai kintamieji turi būti apibrėžti konkrečiu duomenų tipu ir negali būti dinamiškai keičiami. Tipai funkciniame programavime svarbūs tuo, kad jie užtikrina kodo saugumą ir nuspėjamumą, todėl jį lengviau pagrįsti ir testuoti.
+
+Translated with www.DeepL.com/Translator (free version)

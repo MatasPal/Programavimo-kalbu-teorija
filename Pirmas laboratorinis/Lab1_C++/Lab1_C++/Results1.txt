@@ -1,0 +1,8 @@
+Skew binary: 10120  decimal: 44
+Skew binary: 200000000000000000000000000000  decimal: 2147483646
+Skew binary: 10  decimal: 3
+Skew binary: 1000000000000000000000000000000  decimal: 2147483647
+Skew binary: 11  decimal: 4
+Skew binary: 100  decimal: 7
+Skew binary: 11111000001110000101101102000  decimal: 1041110737
+Skew binary: 0  decimal: 0

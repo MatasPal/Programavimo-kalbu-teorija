@@ -1,0 +1,5 @@
+﻿  Pirmas laboratorinis.cpp
+C:\Studijos\2 kursas\2 semestras\Programavimo kalbu teorija\Pirmas laboratorinis\Pirmas laboratorinis\Pirmas laboratorinis.cpp(74,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Studijos\2 kursas\2 semestras\Programavimo kalbu teorija\Pirmas laboratorinis\Pirmas laboratorinis\Pirmas laboratorinis.cpp(76,41): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Studijos\2 kursas\2 semestras\Programavimo kalbu teorija\Pirmas laboratorinis\Pirmas laboratorinis\Pirmas laboratorinis.cpp(80): warning C4715: 'calculating': not all control paths return a value
+  Pirmas laboratorinis.vcxproj -> C:\Studijos\2 kursas\2 semestras\Programavimo kalbu teorija\Pirmas laboratorinis\x64\Debug\Pirmas laboratorinis.exe

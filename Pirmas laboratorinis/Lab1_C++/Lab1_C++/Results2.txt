@@ -1,0 +1,8 @@
+Decimal: 44  skew binary: 2202
+Decimal: 2147483646  skew binary: 20220200022111212100
+Decimal: 3  skew binary: 10
+Decimal: 2147483647  skew binary: 20220200022111212101
+Decimal: 4  skew binary: 11
+Decimal: 7  skew binary: 21
+Decimal: 1041110737  skew binary: 10201220001020110021
+Decimal: 0  skew binary: 0

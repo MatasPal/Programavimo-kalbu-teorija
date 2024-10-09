@@ -1,16 +1,15 @@
-# Programavimo kalbų teorija
+# Programming Language Theory
 
-## Aprašymas
+## Description
 
-Ši repozitorija skirta KTU modulio "Programavimo kalbų teorija" darbams talpinti. Šioje repozitorijoje pateikiami atlikti laboratoriniai darbai atlikti su įvairiomis programavimo kalbomis.
+This repository is dedicated to the works of the KTU module "Programming Language Theory." It contains the completed laboratory work conducted with various programming languages.
 
-## Turinys
+## Content
 
-- **Teoriniai principai:** Programavimo kalbų struktūros ir koncepcijos.
-- **Kalbų tipai, įrankiai:** Naudojamos programavimo kalbos: C++, Scala, Haskell.
-  Projektiniam darbui - savo kalbos kūrimui naudotas Glang interpretatorius.
-- **Pavyzdžiai:** Demonstraciniai kodai, laboratoriniai darbai ir jų analizė (ataskaita).
+- **Theoretical Principles:** Structures and concepts of programming languages.
+- **Language Types and Tools:** Programming languages used include C++, Scala, and Haskell. For the project work, the Glang interpreter was used to develop a custom language.
+- **Examples:** Demonstrative code, laboratory work, and their analysis (reports).
 
-## Šaltiniai
+## Sources
 
 https://github.com/P175B124/glang-interpreter

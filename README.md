@@ -7,7 +7,8 @@
 ## Turinys
 
 - **Teoriniai principai:** Programavimo kalbų struktūros ir koncepcijos.
-- **Kalbų tipai, įrankiai:** Naudojamos programavimo kalbos: C++, Scala, Haskell. Projektiniam darbui - savo kalbos kūrimui naudotas Glang interpretatorius.
+- **Kalbų tipai, įrankiai:** Naudojamos programavimo kalbos: C++, Scala, Haskell.
+  Projektiniam darbui - savo kalbos kūrimui naudotas Glang interpretatorius.
 - **Pavyzdžiai:** Demonstraciniai kodai, laboratoriniai darbai ir jų analizė (ataskaita).
 
 ## Šaltiniai
